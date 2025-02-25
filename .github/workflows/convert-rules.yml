@@ -1,0 +1,39 @@
+name: Convert Surge Rules to Clash
+
+on:
+  push:
+    paths:
+      - 'rules.txt'
+  workflow_dispatch:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          
+      - name: Create rules directory
+        run: mkdir -p rules
+          
+      - name: Convert rules
+        run: |
+          python .github/scripts/convert_rules.py
+          
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add rules/
+          git commit -m "Update Clash rules" || exit 0
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
