@@ -45,7 +45,7 @@ def main():
                         clash_rules.append(converted_rule)
 
             # 生成输出文件名
-            output_file = rules_dir / f"clash_{Path(url).stem}.txt"
+            output_file = rules_dir / f"{Path(url).stem.replace('.list', '')}.yaml"
             
             # 写入转换后的规则
             with open(output_file, 'w') as f:
