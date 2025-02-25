@@ -1,3 +1,6 @@
+from pathlib import Path  # 添加这行导入语句
+import requests
+
 def convert_surge_to_clash(surge_rule):
     if not surge_rule or surge_rule.startswith('#'):
         return None
