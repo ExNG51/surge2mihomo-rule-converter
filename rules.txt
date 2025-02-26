@@ -14,7 +14,6 @@ https://raw.githubusercontent.com/ExNG51/envi.ruleset/main/audit.list
 https://ruleset.skk.moe/List/domainset/reject.conf
 https://ruleset.skk.moe/List/non_ip/reject.conf
 
-https://ruleset.skk.moe/List/domainset/speedtest.conf
 
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list
 
