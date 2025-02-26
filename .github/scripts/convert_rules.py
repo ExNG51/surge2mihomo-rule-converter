@@ -1,5 +1,6 @@
 from pathlib import Path
 import requests
+from collections import defaultdict
 
 def convert_surge_to_clash(surge_rule):
     if not surge_rule or surge_rule.startswith('#'):
@@ -29,19 +30,6 @@ def convert_surge_to_clash(surge_rule):
         
     return None
 
-def get_unique_filename(directory: Path, base_name: str) -> Path:
-    """
-    生成唯一的文件名。如果文件已存在，则在文件名后添加序号。
-    """
-    counter = 1
-    file_path = directory / f"{base_name}.yaml"
-    
-    while file_path.exists():
-        file_path = directory / f"{base_name}_{counter}.yaml"
-        counter += 1
-        
-    return file_path
-
 def main():
     rules_file = Path('rules.txt')
     if not rules_file.exists():
@@ -50,6 +38,9 @@ def main():
 
     rules_dir = Path('rules')
     rules_dir.mkdir(exist_ok=True)
+
+    # 用于记录文件名出现的次数
+    filename_counter = defaultdict(int)
 
     with open(rules_file, 'r') as f:
         urls = f.read().splitlines()
@@ -74,9 +65,17 @@ def main():
             # 获取基础文件名（移除 .list 扩展名）
             base_name = Path(url).stem.replace('.list', '')
             
-            # 获取唯一的输出文件路径
-            output_file = get_unique_filename(rules_dir, base_name)
+            # 检查是否是重名文件
+            if filename_counter[base_name] > 0:
+                output_name = f"{base_name}_{filename_counter[base_name]}.yaml"
+            else:
+                output_name = f"{base_name}.yaml"
             
+            # 增加计数器
+            filename_counter[base_name] += 1
+            
+            # 写入文件
+            output_file = rules_dir / output_name
             with open(output_file, 'w') as f:
                 f.write('\n'.join(clash_rules))
                 
