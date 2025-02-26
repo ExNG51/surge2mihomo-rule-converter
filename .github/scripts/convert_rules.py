@@ -6,11 +6,11 @@ def convert_surge_to_clash(surge_rule):
     # 如果是以点开头的纯域名
     if surge_rule.startswith('.'):
         domain = surge_rule[1:]  # 移除开头的点
-        return f"- DOMAIN-SUFFIX,{domain},REJECT"  # 或其他你想要的策略
+        return f"- DOMAIN-SUFFIX,{domain},REJECT"
     
     # 如果不是以点开头，但也没有逗号（可能是完整域名）
     if not surge_rule.startswith('#') and ',' not in surge_rule and surge_rule.strip():
-        return f"- DOMAIN,{surge_rule.strip()},REJECT"  # 或其他你想要的策略
+        return f"- DOMAIN,{surge_rule.strip()},REJECT"
 
     # 原有的 Surge 规则转换逻辑
     if not surge_rule or surge_rule.startswith('#'):
@@ -53,8 +53,8 @@ def main():
     for file in rules_dir.glob('*.yaml'):
         file.unlink()
 
-    # 用于记录文件名出现的次数
-    filename_counter = defaultdict(int)
+    # 用于存储同名文件的规则
+    rules_dict = defaultdict(set)
     
     with open(rules_file, 'r') as f:
         urls = f.read().splitlines()
@@ -67,36 +67,34 @@ def main():
             response = requests.get(url)
             surge_rules = response.text.splitlines()
 
-            clash_rules = []
-            clash_rules.append("payload:")
+            # 获取基础文件名（移除 .list 扩展名）
+            base_name = Path(url).stem.replace('.list', '')
             
+            # 转换规则并添加到对应的文件名集合中
             for rule in surge_rules:
                 if rule and not rule.startswith('#'):
                     converted_rule = convert_surge_to_clash(rule.strip())
                     if converted_rule:
-                        clash_rules.append(converted_rule)
+                        rules_dict[base_name].add(converted_rule)
 
-            # 获取基础文件名（移除 .list 扩展名）
-            base_name = Path(url).stem.replace('.list', '')
-            
-            # 检查是否是重名文件
-            if filename_counter[base_name] > 0:
-                output_name = f"{base_name}_{filename_counter[base_name]}.yaml"
-            else:
-                output_name = f"{base_name}.yaml"
-            
-            # 增加计数器
-            filename_counter[base_name] += 1
-            
-            # 写入文件
-            output_file = rules_dir / output_name
-            with open(output_file, 'w') as f:
-                f.write('\n'.join(clash_rules))
-                
-            print(f"Converted {url} to {output_file}")
+            print(f"Processed {url}")
 
         except Exception as e:
             print(f"Error processing {url}: {str(e)}")
+
+    # 写入合并后的文件
+    for base_name, rules in rules_dict.items():
+        output_file = rules_dir / f"{base_name}.yaml"
+        
+        # 将规则按字母顺序排序并去重
+        sorted_rules = sorted(list(rules))
+        
+        # 写入文件
+        with open(output_file, 'w') as f:
+            f.write("payload:\n")
+            f.write('\n'.join(sorted_rules))
+            
+        print(f"Created {output_file} with {len(sorted_rules)} rules")
 
 if __name__ == '__main__':
     main()
