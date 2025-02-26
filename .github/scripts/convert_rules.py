@@ -3,6 +3,16 @@ import requests
 from collections import defaultdict
 
 def convert_surge_to_clash(surge_rule):
+    # 如果是以点开头的纯域名
+    if surge_rule.startswith('.'):
+        domain = surge_rule[1:]  # 移除开头的点
+        return f"- DOMAIN-SUFFIX,{domain},REJECT"  # 或其他你想要的策略
+    
+    # 如果不是以点开头，但也没有逗号（可能是完整域名）
+    if not surge_rule.startswith('#') and ',' not in surge_rule and surge_rule.strip():
+        return f"- DOMAIN,{surge_rule.strip()},REJECT"  # 或其他你想要的策略
+
+    # 原有的 Surge 规则转换逻辑
     if not surge_rule or surge_rule.startswith('#'):
         return None
         
@@ -62,7 +72,7 @@ def main():
             
             for rule in surge_rules:
                 if rule and not rule.startswith('#'):
-                    converted_rule = convert_surge_to_clash(rule)
+                    converted_rule = convert_surge_to_clash(rule.strip())
                     if converted_rule:
                         clash_rules.append(converted_rule)
 
