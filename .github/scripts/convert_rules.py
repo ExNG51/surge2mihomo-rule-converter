@@ -39,9 +39,13 @@ def main():
     rules_dir = Path('rules')
     rules_dir.mkdir(exist_ok=True)
 
+    # 删除 rules 目录下的所有 yaml 文件
+    for file in rules_dir.glob('*.yaml'):
+        file.unlink()
+
     # 用于记录文件名出现的次数
     filename_counter = defaultdict(int)
-
+    
     with open(rules_file, 'r') as f:
         urls = f.read().splitlines()
 
