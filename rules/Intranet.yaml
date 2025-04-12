@@ -1,0 +1,9 @@
+payload:
+- IP-CIDR,10.20.10.0/24,no-resolve,no-resolve
+- IP-CIDR,10.20.20.0/24,no-resolve,no-resolve
+- IP-CIDR,10.20.30.0/24,no-resolve,no-resolve
+- IP-CIDR,10.20.50.0/24,no-resolve,no-resolve
+- IP-CIDR,192.168.122.0/24,no-resolve,no-resolve
+- IP-CIDR,192.168.123.0/24,no-resolve,no-resolve
+- IP-CIDR,192.168.234.0/24,no-resolve,no-resolve
+- IP-CIDR,192.168.50.0/24,no-resolve,no-resolve
