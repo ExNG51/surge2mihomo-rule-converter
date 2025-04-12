@@ -153,12 +153,10 @@ payload:
 - DOMAIN-SUFFIX,hdpost.top
 - DOMAIN-SUFFIX,hdroute.org
 - DOMAIN-SUFFIX,hdsky.me
-- DOMAIN-SUFFIX,hdstreet.club
 - DOMAIN-SUFFIX,hdtime.org
 - DOMAIN-SUFFIX,hdupt.com
 - DOMAIN-SUFFIX,hdzone.me
 - DOMAIN-SUFFIX,hitpt.com
-- DOMAIN-SUFFIX,hitpt.org
 - DOMAIN-SUFFIX,hudbt.hust.edu.cn
 - DOMAIN-SUFFIX,icetorrent.org
 - DOMAIN-SUFFIX,ieee.org
@@ -176,7 +174,6 @@ payload:
 - DOMAIN-SUFFIX,m-team.cc
 - DOMAIN-SUFFIX,madsrevolution.net
 - DOMAIN-SUFFIX,moecat.best
-- DOMAIN-SUFFIX,morethan.tv
 - DOMAIN-SUFFIX,msg.vg
 - DOMAIN-SUFFIX,myanonamouse.net
 - DOMAIN-SUFFIX,nanyangpt.com
@@ -225,9 +222,9 @@ payload:
 - PROCESS-NAME,ClashX
 - PROCESS-NAME,DownloadService
 - PROCESS-NAME,Folx
+- PROCESS-NAME,LocalSend
 - PROCESS-NAME,LogiOptions
 - PROCESS-NAME,LogiOptionsDaemon
-- PROCESS-NAME,Motrix.app
 - PROCESS-NAME,NetTransport
 - PROCESS-NAME,SunloginClient_Desktop
 - PROCESS-NAME,SunloginClient_Helper
