@@ -1,1 +1,1 @@
-for clash rules to clash rule.
+For Surge rules to Mihomo rules.
