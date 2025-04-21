@@ -1,0 +1,43 @@
+payload:
+# USER-AGENT,IBKR* (USER-AGENT not supported in Clash)
+# USER-AGENT,OANDA* (USER-AGENT not supported in Clash)
+# USER-AGENT,fxTrade* (USER-AGENT not supported in Clash)
+- DOMAIN-KEYWORD,fxTrade
+- DOMAIN-KEYWORD,fxserver
+- DOMAIN-KEYWORD,oanda
+- DOMAIN-SUFFIX,apextraderfunding.com
+- DOMAIN-SUFFIX,bloomberg.com
+- DOMAIN-SUFFIX,capital.com
+- DOMAIN-SUFFIX,chasingreturns.com
+- DOMAIN-SUFFIX,cityindex.com.sg
+- DOMAIN-SUFFIX,cmcmarkets.com
+- DOMAIN-SUFFIX,content.mql5.com
+- DOMAIN-SUFFIX,dowjones.io
+- DOMAIN-SUFFIX,forex.com
+- DOMAIN-SUFFIX,fxcm.com
+- DOMAIN-SUFFIX,home.saxo
+- DOMAIN-SUFFIX,ibkr.com
+- DOMAIN-SUFFIX,ibllc.com
+- DOMAIN-SUFFIX,ibllc.com.cn
+- DOMAIN-SUFFIX,icmarkets.com
+- DOMAIN-SUFFIX,ig.com
+- DOMAIN-SUFFIX,interactivebrokers.com
+- DOMAIN-SUFFIX,longbridge.hk
+- DOMAIN-SUFFIX,metatrader4.com
+- DOMAIN-SUFFIX,mktomma.com
+- DOMAIN-SUFFIX,oanda.com
+- DOMAIN-SUFFIX,refinitiv.com
+- DOMAIN-SUFFIX,robinhood.com
+- DOMAIN-SUFFIX,sentry.io
+- DOMAIN-SUFFIX,topstep.com
+- DOMAIN-SUFFIX,topsteptrader.com
+- DOMAIN-SUFFIX,topstepx.com
+- DOMAIN-SUFFIX,tradingview.com
+- DOMAIN-SUFFIX,tradovate.com
+- DOMAIN-SUFFIX,tradovateapi.com
+- DOMAIN-SUFFIX,usfarm.nj
+- DOMAIN-SUFFIX,usfuture.nj
+- DOMAIN-SUFFIX,ushmds.nj
+- PROCESS-NAME,IBKR*
+- PROCESS-NAME,OANDA
+- PROCESS-NAME,fxTrade
