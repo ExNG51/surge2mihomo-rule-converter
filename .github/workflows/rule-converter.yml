@@ -1,4 +1,4 @@
-name: Convert Surge Rules to Clash
+name: Convert Surge Rules to Mihomo Rules
 
 on:
   push:
