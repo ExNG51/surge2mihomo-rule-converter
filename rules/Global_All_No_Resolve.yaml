@@ -2128,6 +2128,7 @@ payload:
 - DOMAIN-SUFFIX,api.mixpanel.com
 - DOMAIN-SUFFIX,api.nebula-emby.com
 - DOMAIN-SUFFIX,api.news
+- DOMAIN-SUFFIX,api.palworldgame.com
 - DOMAIN-SUFFIX,apiary.io
 - DOMAIN-SUFFIX,apibay.org
 - DOMAIN-SUFFIX,apigee.com
@@ -7340,6 +7341,7 @@ payload:
 - DOMAIN-SUFFIX,ctfassets.net
 - DOMAIN-SUFFIX,ctfriend.net
 - DOMAIN-SUFFIX,ctg.ac.uk
+- DOMAIN-SUFFIX,ctinets.com
 - DOMAIN-SUFFIX,ctinews.com
 - DOMAIN-SUFFIX,ctitv.com.tw
 - DOMAIN-SUFFIX,ctk.ac.uk
@@ -15210,6 +15212,7 @@ payload:
 - DOMAIN-SUFFIX,internetofeverything.com
 - DOMAIN-SUFFIX,internetpopculture.com
 - DOMAIN-SUFFIX,interracial-sites.com
+- DOMAIN-SUFFIX,interseclab.org
 - DOMAIN-SUFFIX,intescort.com
 - DOMAIN-SUFFIX,intgram.com
 - DOMAIN-SUFFIX,intheknow.com.au
@@ -21027,6 +21030,7 @@ payload:
 - DOMAIN-SUFFIX,ocsp-certum.com
 - DOMAIN-SUFFIX,ocsp-responder.com
 - DOMAIN-SUFFIX,october-review.org
+- DOMAIN-SUFFIX,octocaptcha.com
 - DOMAIN-SUFFIX,ocul.us
 - DOMAIN-SUFFIX,oculus-china.com
 - DOMAIN-SUFFIX,oculus.com
