@@ -7769,6 +7769,7 @@ payload:
 - DOMAIN-SUFFIX,deeper.com
 - DOMAIN-SUFFIX,deepfake-porn.com
 - DOMAIN-SUFFIX,deepfakeporn.net
+- DOMAIN-SUFFIX,deepflood.com
 - DOMAIN-SUFFIX,deepfreeze.co.uk
 - DOMAIN-SUFFIX,deepfreeze.com
 - DOMAIN-SUFFIX,deepfreeze.com.br
@@ -16078,6 +16079,7 @@ payload:
 - DOMAIN-SUFFIX,joinmastodon.org
 - DOMAIN-SUFFIX,joins.com
 - DOMAIN-SUFFIX,joinside.org
+- DOMAIN-SUFFIX,joinsquad.com
 - DOMAIN-SUFFIX,joinup.ac.uk
 - DOMAIN-SUFFIX,jokerlu-go.buzz
 - DOMAIN-SUFFIX,jokerlu.asia
@@ -21141,6 +21143,8 @@ payload:
 - DOMAIN-SUFFIX,offresspecialesbmw.ca
 - DOMAIN-SUFFIX,offrezdesipods.com
 - DOMAIN-SUFFIX,offshorerenewables.ac.uk
+- DOMAIN-SUFFIX,offworldindustries.com
+- DOMAIN-SUFFIX,offworldindustries.net
 - DOMAIN-SUFFIX,ofile.org
 - DOMAIN-SUFFIX,ofs.ac.uk
 - DOMAIN-SUFFIX,ogakikyoritsu.co.jp
@@ -31034,6 +31038,7 @@ payload:
 - DOMAIN-SUFFIX,xshaker.net
 - DOMAIN-SUFFIX,xshr.online
 - DOMAIN-SUFFIX,xsijishe.com
+- DOMAIN-SUFFIX,xsijishe.net
 - DOMAIN-SUFFIX,xskywalker.com
 - DOMAIN-SUFFIX,xskywalker.net
 - DOMAIN-SUFFIX,xslist.org
