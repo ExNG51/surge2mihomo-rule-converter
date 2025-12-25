@@ -1,5 +1,8 @@
 payload:
 - DOMAIN-SUFFIX,abuseipdb.com
+- DOMAIN-SUFFIX,api-huacloud.net
+- DOMAIN-SUFFIX,em.mesl.cloud
+- DOMAIN-SUFFIX,host.apad.pro
 - DOMAIN-SUFFIX,ip.fm
 - DOMAIN-SUFFIX,ip.ipyard.com
 - DOMAIN-SUFFIX,ip.sy
@@ -13,3 +16,4 @@ payload:
 - DOMAIN-SUFFIX,ipregistry.co
 - DOMAIN-SUFFIX,ping0.cc
 - DOMAIN-SUFFIX,scamalytics.com
+- DOMAIN-SUFFIX,y-too.com
