@@ -1,6 +1,7 @@
 payload:
 - DOMAIN-SUFFIX,4kdownload.com
 - DOMAIN-SUFFIX,aihubmix.com
+- DOMAIN-SUFFIX,bagevm.com
 - DOMAIN-SUFFIX,bitsum.com
 - DOMAIN-SUFFIX,cryptomator.org
 - DOMAIN-SUFFIX,ephone.ai
@@ -29,3 +30,4 @@ payload:
 - DOMAIN-SUFFIX,tktn.be
 - DOMAIN-SUFFIX,tuta.com
 - DOMAIN-SUFFIX,vnc.com
+- DOMAIN-SUFFIX,zeabur.com
