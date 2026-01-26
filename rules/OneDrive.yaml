@@ -1,6 +1,4 @@
 payload:
-# USER-AGENT,OneDrive* (USER-AGENT not supported in Clash)
-# USER-AGENT,OneDriveiOSApp* (USER-AGENT not supported in Clash)
 - DOMAIN-KEYWORD,1drv
 - DOMAIN-KEYWORD,onedrive
 - DOMAIN-KEYWORD,skydrive
