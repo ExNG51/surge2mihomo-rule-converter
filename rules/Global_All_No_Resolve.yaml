@@ -3535,6 +3535,7 @@ payload:
 - DOMAIN-SUFFIX,bbc.in
 - DOMAIN-SUFFIX,bbc.mp-pxcdn.com
 - DOMAIN-SUFFIX,bbc.net.uk
+- DOMAIN-SUFFIX,bbc.pdn.tritondigital.com
 - DOMAIN-SUFFIX,bbcchinese.com
 - DOMAIN-SUFFIX,bbchat.tv
 - DOMAIN-SUFFIX,bbci.co.uk
@@ -17735,6 +17736,7 @@ payload:
 - DOMAIN-SUFFIX,lou.ac.uk
 - DOMAIN-SUFFIX,loucoll.ac.uk
 - DOMAIN-SUFFIX,loughborough.ac.uk
+- DOMAIN-SUFFIX,louisvuitton.com
 - DOMAIN-SUFFIX,lovart.ai
 - DOMAIN-SUFFIX,love-sextoys.co.uk
 - DOMAIN-SUFFIX,love4porn.com
@@ -22651,8 +22653,6 @@ payload:
 - DOMAIN-SUFFIX,piirus.ac.uk
 - DOMAIN-SUFFIX,pikabu.monster
 - DOMAIN-SUFFIX,pikpak.io
-- DOMAIN-SUFFIX,pikpak.me
-- DOMAIN-SUFFIX,pikpakdrive.com
 - DOMAIN-SUFFIX,pilgrimageandcathedrals.ac.uk
 - DOMAIN-SUFFIX,pilgrimagestudies.ac.uk
 - DOMAIN-SUFFIX,pillbeatsblackfridaysale.com
