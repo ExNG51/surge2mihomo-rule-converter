@@ -1,7 +1,7 @@
 payload:
 - DOMAIN,0123456789nonexistent.com
-- DOMAIN,0d.kebhana.mx
 - DOMAIN,1337.abcvg.info
+- DOMAIN,6ahddutb1ucc3cp.ru
 - DOMAIN,aboutbeautifulgallopinghorsesinthegreenpasture.online
 - DOMAIN,admin.52ywp.com
 - DOMAIN,bandito.byterunner.io
@@ -9,6 +9,7 @@ payload:
 - DOMAIN,bt.poletracker.org
 - DOMAIN,bt.rer.lol
 - DOMAIN,bt1.xxxxbt.cc
+- DOMAIN,buny.uk
 - DOMAIN,bvarf.tracker.sh
 - DOMAIN,cny.fan
 - DOMAIN,d40969.acod.regrucolo.ru
@@ -41,23 +42,19 @@ payload:
 - DOMAIN,retracker.hotplug.ru
 - DOMAIN,retracker.lanta.me
 - DOMAIN,retracker.spark-rostov.ru
-- DOMAIN,run.publictracker.xyz
 - DOMAIN,seeders-paradise.org
-- DOMAIN,servandroidkino.ru
-- DOMAIN,shahidrazi.online
 - DOMAIN,share.hkg-fansub.info
 - DOMAIN,shubt.net
 - DOMAIN,t.213891.xyz
+- DOMAIN,t.overflow.biz
 - DOMAIN,torrent.hificode.in
 - DOMAIN,torrent.tracker.durukanbal.com
 - DOMAIN,torrentclub.online
 - DOMAIN,torrentsmd.com
 - DOMAIN,tr.abiir.top
-- DOMAIN,tr.abir.ga
 - DOMAIN,tr.highstar.shop
 - DOMAIN,tr.kxmp.cf
 - DOMAIN,tr.nyacat.pw
-- DOMAIN,tr.zukizuki.org
 - DOMAIN,tr4ck3r.duckdns.org
 - DOMAIN,tracker-udp.gbitt.info
 - DOMAIN,tracker.1h.is
@@ -79,6 +76,7 @@ payload:
 - DOMAIN,tracker.flatuslifir.is
 - DOMAIN,tracker.fnix.net
 - DOMAIN,tracker.foreverpirates.co
+- DOMAIN,tracker.gcrenwp.top
 - DOMAIN,tracker.ghostchu-services.top
 - DOMAIN,tracker.gmi.gd
 - DOMAIN,tracker.iochimari.moe
@@ -89,8 +87,6 @@ payload:
 - DOMAIN,tracker.kuroy.me
 - DOMAIN,tracker.lintk.me
 - DOMAIN,tracker.moeblog.cn
-- DOMAIN,tracker.moeking.me
-- DOMAIN,tracker.moxing.party
 - DOMAIN,tracker.mywaifu.best
 - DOMAIN,tracker.opentorrent.top
 - DOMAIN,tracker.opentrackr.org
@@ -114,10 +110,12 @@ payload:
 - DOMAIN,tracker.tvunderground.org.ru
 - DOMAIN,tracker.umunu.ru
 - DOMAIN,tracker.uraniumhexafluori.de
+- DOMAIN,tracker.vanitycore.co
 - DOMAIN,tracker.waaa.moe
 - DOMAIN,tracker.wepzone.net
 - DOMAIN,tracker.xiaoduola.xyz
 - DOMAIN,tracker.xn--djrq4gl4hvoi.top
+- DOMAIN,tracker.yume-hatsuyuki.moe
 - DOMAIN,tracker.zhuqiy.com
 - DOMAIN,tracker.zupix.online
 - DOMAIN,tracker1.520.jp
@@ -131,10 +129,10 @@ payload:
 - DOMAIN,utracker.ghostchu-services.top
 - DOMAIN,wepzone.net
 - DOMAIN,www.all4nothin.net
+- DOMAIN,www.genesis-sp.org
 - DOMAIN,www.torrent.eu.org
 - DOMAIN,www.torrentsnipe.info
 - DOMAIN,www.wareztorrent.com
-- DOMAIN,zer0day.ch
 - DOMAIN-KEYWORD,announce
 - DOMAIN-KEYWORD,chdbits
 - DOMAIN-KEYWORD,m-team
