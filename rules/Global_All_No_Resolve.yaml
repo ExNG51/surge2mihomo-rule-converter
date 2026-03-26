@@ -22034,6 +22034,7 @@ payload:
 - DOMAIN-SUFFIX,openlibrary.org
 - DOMAIN-SUFFIX,openmaps.org
 - DOMAIN-SUFFIX,openreality.com
+- DOMAIN-SUFFIX,openrec.tv
 - DOMAIN-SUFFIX,openresty.org
 - DOMAIN-SUFFIX,openreview.net
 - DOMAIN-SUFFIX,openrouter.ai
@@ -22264,8 +22265,15 @@ payload:
 - DOMAIN-SUFFIX,ozeex.com
 - DOMAIN-SUFFIX,ozodi.org
 - DOMAIN-SUFFIX,ozodlik.org
+- DOMAIN-SUFFIX,ozon.by
+- DOMAIN-SUFFIX,ozon.com
+- DOMAIN-SUFFIX,ozon.com.by
+- DOMAIN-SUFFIX,ozon.com.kz
+- DOMAIN-SUFFIX,ozon.kz
 - DOMAIN-SUFFIX,ozon.ru
+- DOMAIN-SUFFIX,ozon.tm
 - DOMAIN-SUFFIX,ozone.ru
+- DOMAIN-SUFFIX,ozonru.me
 - DOMAIN-SUFFIX,ozonusercontent.com
 - DOMAIN-SUFFIX,ozvoice.org
 - DOMAIN-SUFFIX,ozxw.com
@@ -25020,6 +25028,7 @@ payload:
 - DOMAIN-SUFFIX,s-nbcnews.com
 - DOMAIN-SUFFIX,s-rewards.hk
 - DOMAIN-SUFFIX,s-xoom.com
+- DOMAIN-SUFFIX,s.rmimg.com
 - DOMAIN-SUFFIX,s.team
 - DOMAIN-SUFFIX,s1heng.com
 - DOMAIN-SUFFIX,s1s1s1.com
@@ -31804,6 +31813,7 @@ payload:
 - DOMAIN-SUFFIX,xmoviesforyou.com
 - DOMAIN-SUFFIX,xn--096-4g6em5t.com
 - DOMAIN-SUFFIX,xn--11xs86f.icu
+- DOMAIN-SUFFIX,xn--1jqvh729avzfcy2d8ummib.com
 - DOMAIN-SUFFIX,xn--201-4g6em5t.com
 - DOMAIN-SUFFIX,xn--202-4g6em5t.com
 - DOMAIN-SUFFIX,xn--203-4g6em5t.com
