@@ -1424,6 +1424,7 @@ payload:
 - DOMAIN-SUFFIX,agemys.org
 - DOMAIN-SUFFIX,agendaweek.com
 - DOMAIN-SUFFIX,agenet.ac.uk
+- DOMAIN-SUFFIX,agentclientprotocol.com
 - DOMAIN-SUFFIX,agilebits.com
 - DOMAIN-SUFFIX,agnesb.fr
 - DOMAIN-SUFFIX,agocg.ac.uk
@@ -23441,6 +23442,7 @@ payload:
 - DOMAIN-SUFFIX,placesdocs.com
 - DOMAIN-SUFFIX,planetminecraft.com
 - DOMAIN-SUFFIX,planetsuzy.org
+- DOMAIN-SUFFIX,plannotator.ai
 - DOMAIN-SUFFIX,plansondemand.com
 - DOMAIN-SUFFIX,plant-phenomics.ac.uk
 - DOMAIN-SUFFIX,plantsvszombies2.com
@@ -28398,6 +28400,7 @@ payload:
 - DOMAIN-SUFFIX,tech-mail.ru
 - DOMAIN-SUFFIX,tech26.de
 - DOMAIN-SUFFIX,techatbloomberg.com
+- DOMAIN-SUFFIX,techbang.com
 - DOMAIN-SUFFIX,techcrunch.com
 - DOMAIN-SUFFIX,techextra.ac.uk
 - DOMAIN-SUFFIX,techhub.ms
@@ -29732,6 +29735,7 @@ payload:
 - DOMAIN-SUFFIX,twitcause.com
 - DOMAIN-SUFFIX,twitch.tv
 - DOMAIN-SUFFIX,twitchcdn.net
+- DOMAIN-SUFFIX,twitchcon.com
 - DOMAIN-SUFFIX,twitchsvc.net
 - DOMAIN-SUFFIX,twitcomike.jp
 - DOMAIN-SUFFIX,twitgether.com
