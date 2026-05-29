@@ -1,9 +1,4 @@
 payload:
-# USER-AGENT,Bilibili* (USER-AGENT not supported in Clash)
-# USER-AGENT,QYPlayer* (USER-AGENT not supported in Clash)
-# USER-AGENT,bili* (USER-AGENT not supported in Clash)
-# USER-AGENT,bili-inter* (USER-AGENT not supported in Clash)
-# USER-AGENT,iQIYI* (USER-AGENT not supported in Clash)
 - DOMAIN,apiintl.biliapi.net
 - DOMAIN,intel-cache.m.iqiyi.com
 - DOMAIN,intel-cache.video.iqiyi.com

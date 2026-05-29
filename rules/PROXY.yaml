@@ -1787,6 +1787,8 @@ payload:
 - DOMAIN-SUFFIX,bitterwinter.org
 - DOMAIN-SUFFIX,bitvise.com
 - DOMAIN-SUFFIX,bitwarden.com
+- DOMAIN-SUFFIX,bitwarden.eu
+- DOMAIN-SUFFIX,bitwarden.net
 - DOMAIN-SUFFIX,bizhat.com
 - DOMAIN-SUFFIX,bizographics.com
 - DOMAIN-SUFFIX,bjnewlife.org
@@ -2517,6 +2519,7 @@ payload:
 - DOMAIN-SUFFIX,btt904.com
 - DOMAIN-SUFFIX,bttzyw.com
 - DOMAIN-SUFFIX,bttzyw.net
+- DOMAIN-SUFFIX,btwrdn.com
 - DOMAIN-SUFFIX,bubbaporn.com
 - DOMAIN-SUFFIX,buck.build
 - DOMAIN-SUFFIX,buckbuild.com
@@ -2892,7 +2895,9 @@ payload:
 - DOMAIN-SUFFIX,chargenowusa.com
 - DOMAIN-SUFFIX,charlestonroadregistry.com
 - DOMAIN-SUFFIX,charmescorts.com
+- DOMAIN-SUFFIX,chat.com
 - DOMAIN-SUFFIX,chat.gle
+- DOMAIN-SUFFIX,chatgpt.com
 - DOMAIN-SUFFIX,chatnook.com
 - DOMAIN-SUFFIX,chaturbate.com
 - DOMAIN-SUFFIX,chedteb.eu
@@ -3771,6 +3776,7 @@ payload:
 - DOMAIN-SUFFIX,discoins.com
 - DOMAIN-SUFFIX,disconnect.me
 - DOMAIN-SUFFIX,discord-activities.com
+- DOMAIN-SUFFIX,discord-attachments-uploads-prd.storage.googleapis.com
 - DOMAIN-SUFFIX,discord.co
 - DOMAIN-SUFFIX,discord.com
 - DOMAIN-SUFFIX,discord.design
@@ -5806,6 +5812,7 @@ payload:
 - DOMAIN-SUFFIX,github.io
 - DOMAIN-SUFFIX,githubapp.com
 - DOMAIN-SUFFIX,githubassets.com
+- DOMAIN-SUFFIX,githubcopilot.com
 - DOMAIN-SUFFIX,githubhackathon.com
 - DOMAIN-SUFFIX,githubnext.com
 - DOMAIN-SUFFIX,githubpreview.dev
@@ -6277,6 +6284,7 @@ payload:
 - DOMAIN-SUFFIX,greenvpn.org
 - DOMAIN-SUFFIX,greginhollywood.com
 - DOMAIN-SUFFIX,gridaware.app
+- DOMAIN-SUFFIX,grok.com
 - DOMAIN-SUFFIX,grooby.com
 - DOMAIN-SUFFIX,grotty-monday.com
 - DOMAIN-SUFFIX,groups.com
@@ -7852,6 +7860,7 @@ payload:
 - DOMAIN-SUFFIX,jerkmatelive.org
 - DOMAIN-SUFFIX,jerkofftocelebs.com
 - DOMAIN-SUFFIX,jessicaturner.com
+- DOMAIN-SUFFIX,jetbrains.ai
 - DOMAIN-SUFFIX,jetbrains.com
 - DOMAIN-SUFFIX,jetbrains.io
 - DOMAIN-SUFFIX,jetbrains.net
@@ -10033,6 +10042,8 @@ payload:
 - DOMAIN-SUFFIX,nzchinese.net.nz
 - DOMAIN-SUFFIX,o0-2.com
 - DOMAIN-SUFFIX,o50.jp
+- DOMAIN-SUFFIX,oaistatic.com
+- DOMAIN-SUFFIX,oaiusercontent.com
 - DOMAIN-SUFFIX,oasisfeng.com
 - DOMAIN-SUFFIX,oath.cloud
 - DOMAIN-SUFFIX,oath.com
@@ -10183,7 +10194,10 @@ payload:
 - DOMAIN-SUFFIX,op7979.com
 - DOMAIN-SUFFIX,open-suse.ru
 - DOMAIN-SUFFIX,openai.com
+- DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
 - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+- DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+- DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
 - DOMAIN-SUFFIX,openallweb.com
 - DOMAIN-SUFFIX,openamt.com
 - DOMAIN-SUFFIX,opencreate.org
@@ -10639,6 +10653,7 @@ payload:
 - DOMAIN-SUFFIX,perfectshemales.com
 - DOMAIN-SUFFIX,perfectvpn.net
 - DOMAIN-SUFFIX,periscope.tv
+- DOMAIN-SUFFIX,perplexity.ai
 - DOMAIN-SUFFIX,persecutionblog.com
 - DOMAIN-SUFFIX,persiankitty.com
 - DOMAIN-SUFFIX,persistent.info
@@ -11225,6 +11240,7 @@ payload:
 - DOMAIN-SUFFIX,privatevpn.com
 - DOMAIN-SUFFIX,procopytips.com
 - DOMAIN-SUFFIX,proctoscopeexam.com
+- DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
 - DOMAIN-SUFFIX,profreeporno.com
 - DOMAIN-SUFFIX,projectara.com
 - DOMAIN-SUFFIX,projectbaseline.com
@@ -12654,6 +12670,7 @@ payload:
 - DOMAIN-SUFFIX,sonytc.co.jp
 - DOMAIN-SUFFIX,sopcast.com
 - DOMAIN-SUFFIX,sopcast.org
+- DOMAIN-SUFFIX,sora.com
 - DOMAIN-SUFFIX,sora6.com
 - DOMAIN-SUFFIX,sorairi.info
 - DOMAIN-SUFFIX,sorazone.net
@@ -16267,7 +16284,6 @@ payload:
 - IP-CIDR,108.168.255.224/32,no-resolve,no-resolve
 - IP-CIDR,108.168.255.227/32,no-resolve,no-resolve
 - IP-CIDR,108.177.8.0/21,no-resolve,no-resolve
-- IP-CIDR,109.239.140.0/24,no-resolve,no-resolve
 - IP-CIDR,110.165.16.0/20,no-resolve,no-resolve
 - IP-CIDR,110.234.236.0/22,no-resolve,no-resolve
 - IP-CIDR,110.234.240.0/24,no-resolve,no-resolve
@@ -16395,27 +16411,7 @@ payload:
 - IP-CIDR,147.92.200.0/21,no-resolve,no-resolve
 - IP-CIDR,147.92.248.0/21,no-resolve,no-resolve
 - IP-CIDR,149.154.160.0/20,no-resolve,no-resolve
-- IP-CIDR,149.154.164.0/22,no-resolve,no-resolve
-- IP-CIDR,149.154.164.250/32,no-resolve,no-resolve
-- IP-CIDR,149.154.164.8/29,no-resolve,no-resolve
-- IP-CIDR,149.154.165.120/32,no-resolve,no-resolve
-- IP-CIDR,149.154.166.120/32,no-resolve,no-resolve
-- IP-CIDR,149.154.167.117/32,no-resolve,no-resolve
-- IP-CIDR,149.154.167.118/32,no-resolve,no-resolve
-- IP-CIDR,149.154.167.192/27,no-resolve,no-resolve
-- IP-CIDR,149.154.167.40/32,no-resolve,no-resolve
-- IP-CIDR,149.154.167.42/32,no-resolve,no-resolve
-- IP-CIDR,149.154.167.50/32,no-resolve,no-resolve
-- IP-CIDR,149.154.167.51/32,no-resolve,no-resolve
-- IP-CIDR,149.154.167.90/32,no-resolve,no-resolve
-- IP-CIDR,149.154.167.91/32,no-resolve,no-resolve
-- IP-CIDR,149.154.167.99/32,no-resolve,no-resolve
-- IP-CIDR,149.154.168.0/22,no-resolve,no-resolve
 - IP-CIDR,149.154.172.0/22,no-resolve,no-resolve
-- IP-CIDR,149.154.175.10/32,no-resolve,no-resolve
-- IP-CIDR,149.154.175.100/32,no-resolve,no-resolve
-- IP-CIDR,149.154.175.117/32,no-resolve,no-resolve
-- IP-CIDR,149.154.175.50/32,no-resolve,no-resolve
 - IP-CIDR,157.240.0.0/17,no-resolve,no-resolve
 - IP-CIDR,169.45.248.118/32,no-resolve,no-resolve
 - IP-CIDR,17.252.156.147/24,no-resolve,no-resolve
@@ -16597,7 +16593,6 @@ payload:
 - IP-CIDR,94.24.36.0/24,no-resolve,no-resolve
 - IP-CIDR,94.24.37.0/24,no-resolve,no-resolve
 - IP-CIDR,95.108.128.0/17,no-resolve,no-resolve
-- IP-CIDR,95.161.64.0/20,no-resolve,no-resolve
 - IP-CIDR,99.181.64.0/20,no-resolve,no-resolve
 - IP-CIDR,99.181.80.0/21,no-resolve,no-resolve
 - IP-CIDR,99.181.88.0/21,no-resolve,no-resolve
@@ -16611,18 +16606,9 @@ payload:
 - IP-CIDR6,2001:4c28:4000::/36,no-resolve,no-resolve
 - IP-CIDR6,2001:4c28::/32,no-resolve,no-resolve
 - IP-CIDR6,2001:67c:4e8::/48,no-resolve,no-resolve
-- IP-CIDR6,2001:67c:4e8:f002::a/128,no-resolve,no-resolve
-- IP-CIDR6,2001:67c:4e8:f002::e/128,no-resolve,no-resolve
-- IP-CIDR6,2001:67c:4e8:f004::a/128,no-resolve,no-resolve
-- IP-CIDR6,2001:67c:4e8:fa60::/64,no-resolve,no-resolve
 - IP-CIDR6,2001:b28:f23c::/48,no-resolve,no-resolve
 - IP-CIDR6,2001:b28:f23d::/48,no-resolve,no-resolve
-- IP-CIDR6,2001:b28:f23d:f001::a/128,no-resolve,no-resolve
-- IP-CIDR6,2001:b28:f23d:f001::e/128,no-resolve,no-resolve
-- IP-CIDR6,2001:b28:f23d:f003::a/128,no-resolve,no-resolve
-- IP-CIDR6,2001:b28:f23d:f003::e/128,no-resolve,no-resolve
 - IP-CIDR6,2001:b28:f23f::/48,no-resolve,no-resolve
-- IP-CIDR6,2001:b28:f23f:f005::a/128,no-resolve,no-resolve
 - IP-CIDR6,2400:dcc0::/32,no-resolve,no-resolve
 - IP-CIDR6,2400:dcc0:a001::/48,no-resolve,no-resolve
 - IP-CIDR6,2400:dcc0:a002::/48,no-resolve,no-resolve
@@ -16697,6 +16683,7 @@ payload:
 - IP-CIDR6,2a02:6b8:c::/48,no-resolve,no-resolve
 - IP-CIDR6,2a02:6b8:d::/48,no-resolve,no-resolve
 - IP-CIDR6,2a02:6b8:e::/48,no-resolve,no-resolve
+- IP-CIDR6,2a0a:f280:203::/48,no-resolve,no-resolve
 - IP-CIDR6,2a0a:f280::/32,no-resolve,no-resolve
 - IP-CIDR6,2a0b:e40:1::/48,no-resolve,no-resolve
 - IP-CIDR6,2a0b:e40:2::/48,no-resolve,no-resolve
