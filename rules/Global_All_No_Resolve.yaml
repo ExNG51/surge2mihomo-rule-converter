@@ -19848,7 +19848,6 @@ payload:
 - DOMAIN-SUFFIX,minim.ac.uk
 - DOMAIN-SUFFIX,minimarkham.ca
 - DOMAIN-SUFFIX,minimarkham.com
-- DOMAIN-SUFFIX,minimax.io
 - DOMAIN-SUFFIX,minimoncton.ca
 - DOMAIN-SUFFIX,minimoncton.com
 - DOMAIN-SUFFIX,minimontrealcentre.ca
@@ -32801,8 +32800,11 @@ payload:
 - DOMAIN-SUFFIX,xhamster3.com
 - DOMAIN-SUFFIX,xhamsterlive.com
 - DOMAIN-SUFFIX,xhcdn.com
+- DOMAIN-SUFFIX,xhnews.live
 - DOMAIN-SUFFIX,xhot.pro
+- DOMAIN-SUFFIX,xhpingcdn.com
 - DOMAIN-SUFFIX,xhpjc6-cdn-settings.appsflyersdk.com
+- DOMAIN-SUFFIX,xhreal5.com
 - DOMAIN-SUFFIX,xhub.tv
 - DOMAIN-SUFFIX,xianba.net
 - DOMAIN-SUFFIX,xianchawang.net
