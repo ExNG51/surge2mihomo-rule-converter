@@ -8,9 +8,10 @@ payload:
 - DOMAIN-KEYWORD,-p2p-v2.pull.yximgs.com
 - DOMAIN-KEYWORD,-p2p.pull.yximgs.com
 - DOMAIN-SUFFIX,bsccdn.net
+- DOMAIN-SUFFIX,bvmlt.top
 - DOMAIN-SUFFIX,cdnnodedns.cn
 - DOMAIN-SUFFIX,gjfzpt.cn
-- DOMAIN-SUFFIX,ietheivaicai.com
+- DOMAIN-SUFFIX,ietheivaicai.com # 牛链云 PCDN - https://www.niulink.io/
 - DOMAIN-SUFFIX,kuiniuca.com
 - DOMAIN-SUFFIX,mcdn.bilivideo.cn
 - DOMAIN-SUFFIX,mountaintoys.cn
