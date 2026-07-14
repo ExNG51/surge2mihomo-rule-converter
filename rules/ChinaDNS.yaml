@@ -2,6 +2,7 @@ payload:
 - DOMAIN,dns.alidns.com
 - DOMAIN,doh.pub
 - DOMAIN,sm2.doh.pub
+- DOMAIN-SUFFIX,api-huacloud.com
 - DOMAIN-SUFFIX,api-huacloud.net
 - DOMAIN-SUFFIX,api.xmancdn.net
 - IP-CIDR,114.114.114.114/32,no-resolve,no-resolve
