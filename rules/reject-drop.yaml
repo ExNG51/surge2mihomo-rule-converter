@@ -5,6 +5,7 @@ payload:
 - DOMAIN,stats.grafana.org
 - DOMAIN-SUFFIX,beacon.qq.com
 - DOMAIN-SUFFIX,data.grammarly.com
+- DOMAIN-SUFFIX,data.microsoft.com
 - DOMAIN-SUFFIX,easytomessage.com
 - DOMAIN-SUFFIX,f-log-assistant.grammarly.io
 - DOMAIN-SUFFIX,f-log-extension.grammarly.io
