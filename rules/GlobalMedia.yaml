@@ -209,6 +209,11 @@ payload:
 - DOMAIN-SUFFIX,c4assets.com
 - DOMAIN-SUFFIX,cabletv.com.hk
 - DOMAIN-SUFFIX,callhulu.com
+- DOMAIN-SUFFIX,capcut.com
+- DOMAIN-SUFFIX,capcutapi.com
+- DOMAIN-SUFFIX,capcutapi.us
+- DOMAIN-SUFFIX,capcutcdn-us.com
+- DOMAIN-SUFFIX,capcutstatic.com
 - DOMAIN-SUFFIX,casoneexchange.com
 - DOMAIN-SUFFIX,cbs
 - DOMAIN-SUFFIX,cbs.com
@@ -435,7 +440,7 @@ payload:
 - DOMAIN-SUFFIX,espncdn.com
 - DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net
 - DOMAIN-SUFFIX,espnqa.com
-- DOMAIN-SUFFIX,eu-1.xcal.tv
+- DOMAIN-SUFFIX,eu.ems.eos.comcast.com
 - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
 - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
 - DOMAIN-SUFFIX,exhentai.org
@@ -1151,8 +1156,6 @@ payload:
 - DOMAIN-SUFFIX,urduvoa.com
 - DOMAIN-SUFFIX,us-west-2.amazonaws.com
 - DOMAIN-SUFFIX,usanetwork.com
-- DOMAIN-SUFFIX,v.smtcdns.com
-- DOMAIN-SUFFIX,v.smtcdns.net
 - DOMAIN-SUFFIX,vhx.tv
 - DOMAIN-SUFFIX,vhxqa1.com
 - DOMAIN-SUFFIX,vhxqa2.com
@@ -1221,6 +1224,7 @@ payload:
 - DOMAIN-SUFFIX,voxfieldguide.com
 - DOMAIN-SUFFIX,voxmedia.com
 - DOMAIN-SUFFIX,voxops.net
+- DOMAIN-SUFFIX,vv.video.qq.com
 - DOMAIN-SUFFIX,warnermediacdn.com
 - DOMAIN-SUFFIX,watchdisneyfe.com
 - DOMAIN-SUFFIX,watchespn.com
@@ -1237,6 +1241,7 @@ payload:
 - DOMAIN-SUFFIX,wogx.com
 - DOMAIN-SUFFIX,wwwapplemusic.com
 - DOMAIN-SUFFIX,wwwhuluplus.com
+- DOMAIN-SUFFIX,xcal.tv
 - DOMAIN-SUFFIX,xmidt-eu.comcast.net
 - DOMAIN-SUFFIX,yb.uncn.jp
 - DOMAIN-SUFFIX,youboranqs01.com
