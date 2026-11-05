@@ -18,6 +18,7 @@ payload:
 - DOMAIN-SUFFIX,gepush.com
 - DOMAIN-SUFFIX,getui.com
 - DOMAIN-SUFFIX,getui.net
+- DOMAIN-SUFFIX,gnar.grammarly.com
 - DOMAIN-SUFFIX,in.applicationinsights.azure.com
 - DOMAIN-SUFFIX,jpush.cn
 - DOMAIN-SUFFIX,jpush.io
